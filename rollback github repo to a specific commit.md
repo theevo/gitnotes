@@ -7,6 +7,10 @@ git reset --hard <old-commit-id>
 git push -f <remote-name> <branch-name>
 ```
 
+## commit-id
+
+You get it from GitHub or `git log`. Copy the full bajillion-character long id or just the first 7 characters. They're equivalent!
+
 
 ## Credit
 
