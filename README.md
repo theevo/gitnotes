@@ -43,9 +43,13 @@ It'd be terrible to look at a folder full of files that were all prefixed with `
 
 Examples:
 * stash
-* 
+* diff
 
 #### 2. Human-readable task you want to do. EX: delete everything since the last commit
+
+Examples:
+* add only certain file types
+* clean untracked files
 
 
 ## My tools
