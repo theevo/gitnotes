@@ -1,5 +1,10 @@
 # merge
 
+`git merge main` 
+
+Will merge commits **FROM** main **to** the branch you're currently on.
+
+
 ## Best practice: make a new branch before you merge
 
 ```

@@ -6,6 +6,15 @@ git diff
 
 Show code changes between changes in red and the last commit.
 
+## Choose the number of lines of context
+
+By default, you get `-U3`
+
+```
+git diff -U0
+```
+
+
 ## NOTE: git diff only works on UNSTAGED changes
 
 In other words, `git diff` won't work after you `git add .`
