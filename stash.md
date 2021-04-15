@@ -24,6 +24,8 @@ git stash pop
 
 ## Show diff between stash and head
 
+Show the details, show the patch
+
 ```
 git stash show -p
 ```
@@ -37,6 +39,19 @@ git stash list
 ```
 
 
+## Name your stash
+
+Stashes are named after your last commit message. Not very helpful since your stash often has nothing to do with the commit (otherwise, you would have committed it!).
+
+It's nice to be able name your stashes so you know what is actually in them.
+
+Why would you do this? Super helpful for saving debugging tools that don't need to be in your repo.
+
+```
+git stash push -m "AWS debug"
+```
+
+
 ## Note: stash doesn't work on merge conflicts
 
-Files that are that contain merge conflict cannot be stashed.
+Files that contain a merge conflict cannot be stashed.
